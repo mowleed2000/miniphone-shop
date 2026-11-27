@@ -23,12 +23,12 @@
         html += '<p class="sl-note">Send the model and the fault. We will reply from the shop at 67 Putney High St, Putney, or you can walk in.</p>';
         html += '<div class="contact-mini-list" style="margin-top:18px;">';
         html += '<div><i class="fa-solid fa-location-dot" style="color:var(--primary);"></i> 67 Putney High St, London SW15 1SR</div>';
-        html += '<div><i class="fa-brands fa-whatsapp" style="color:#25d366;"></i> <a href="https://wa.me/447448885755" target="_blank" rel="noopener">07944 668670</a></div>';
+        html += '<div><i class="fa-brands fa-whatsapp" style="color:#25d366;"></i> <a href="https://wa.me/447944668670" target="_blank" rel="noopener">07944 668670</a></div>';
         html += '<div><i class="fa-solid fa-envelope" style="color:var(--primary);"></i> <a href="mailto:miniphoneshop67@gmail.com">miniphoneshop67@gmail.com</a></div>';
         html += '</div>';
         html += '<div class="sl-cta-row">';
         html += '<a class="btn btn-primary" href="tel:07944668670"><i class="fa-solid fa-phone"></i> Call the shop</a>';
-        html += '<a class="btn btn-whatsapp" href="https://wa.me/447448885755" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>';
+        html += '<a class="btn btn-whatsapp" href="https://wa.me/447944668670" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>';
         html += '</div></div>';
         html += '<form class="enquiry-form" onsubmit="handleEnquiry(event)">';
         html += '<input type="hidden" id="serviceType" value="' + esc(data.formTitle) + '">';

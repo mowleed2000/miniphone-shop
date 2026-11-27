@@ -5,9 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sell or Trade In Your Phone in Putney | Mini Phone Shop</title>
     <meta name="description" content="Cash or part-exchange for iPhones, Androids and laptops at 67 Putney High St, Putney. Call 07944 668670.">
-    <link rel="preload" href="style.css?v=20260819_mlr12" as="style">
     <link rel="stylesheet" href="style.css?v=20260819_mlr12">
     <link rel="preload" as="image" href="assets/Iphone 17 pro max.webp">
+    <link rel="preload" href="fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+    <script type="speculationrules">
+    {
+      "prerender": [
+        {
+          "source": "list",
+          "urls": [
+            "index.html",
+            "screen-repair.html",
+            "battery-replacement.html",
+            "charging-port.html",
+            "laptopscreen.html",
+            "devices.html",
+            "trade-in.html",
+            "call-out-services.html",
+            "catalogue.html",
+            "contact.html"
+          ]
+        }
+      ],
+      "prefetch": [
+        {
+          "source": "document",
+          "where": { "and": [{ "href_matches": "/*" }] },
+          "eagerness": "moderate"
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
 
@@ -368,5 +397,6 @@
     <script src="nav.js" defer></script>
     <script src="map.js" defer></script>
     <script src="enquiry.js" defer></script>
+    <script src="fast-nav.js" defer></script>
 </body>
 </html>

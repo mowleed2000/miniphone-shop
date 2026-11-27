@@ -5,8 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Why Upgrade to an NVMe M.2 SSD for Your Laptop? | Mini Phone Shop Blog</title>
     <meta name="description" content="Learn how upgrading your laptop from an old mechanical hard drive or SATA drive to an M.2 NVMe SSD increases boot speeds by up to 500%.">
-    <link rel="preload" href="style.css?v=20260819_mlr12" as="style">
     <link rel="stylesheet" href="style.css?v=20260819_mlr12">
+    <link rel="preload" href="fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+    <script type="speculationrules">
+    {
+      "prerender": [
+        {
+          "source": "list",
+          "urls": [
+            "index.html",
+            "screen-repair.html",
+            "battery-replacement.html",
+            "charging-port.html",
+            "laptopscreen.html",
+            "devices.html",
+            "trade-in.html",
+            "call-out-services.html",
+            "catalogue.html",
+            "contact.html"
+          ]
+        }
+      ],
+      "prefetch": [
+        {
+          "source": "document",
+          "where": { "and": [{ "href_matches": "/*" }] },
+          "eagerness": "moderate"
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     
@@ -164,5 +193,6 @@
     </footer>
     <script src="nav.js" defer></script>
     <script src="map.js" defer></script>
+    <script src="fast-nav.js" defer></script>
 </body>
 </html>

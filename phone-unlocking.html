@@ -5,8 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phone Unlocking in Putney | Mini Phone Shop</title>
     <meta name="description" content="Network unlocks for iPhone and Android at 67 Putney High St, Putney W14. Call 07944 668670.">
-    <link rel="preload" href="style.css?v=20260819_mlr12" as="style">
     <link rel="stylesheet" href="style.css?v=20260819_mlr12">
+    <link rel="preload" href="fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+    <script type="speculationrules">
+    {
+      "prerender": [
+        {
+          "source": "list",
+          "urls": [
+            "index.html",
+            "screen-repair.html",
+            "battery-replacement.html",
+            "charging-port.html",
+            "laptopscreen.html",
+            "devices.html",
+            "trade-in.html",
+            "call-out-services.html",
+            "catalogue.html",
+            "contact.html"
+          ]
+        }
+      ],
+      "prefetch": [
+        {
+          "source": "document",
+          "where": { "and": [{ "href_matches": "/*" }] },
+          "eagerness": "moderate"
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     <!-- Top Announcement Bar -->
@@ -355,5 +384,6 @@
     <script src="service-page.js" defer></script>
 
     <script src="lightbox.js" defer></script>
+    <script src="fast-nav.js" defer></script>
 </body>
 </html>
